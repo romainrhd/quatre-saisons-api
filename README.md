@@ -1,5 +1,3 @@
-# API
+# Quatre saisons API
 
-The API will be here.
-
-Refer to the [Getting Started Guide](https://api-platform.com/docs/distribution) for more information.
+L'API Quatre saisons est une API REST qui référence les fruits et légumes de saisons par mois.
