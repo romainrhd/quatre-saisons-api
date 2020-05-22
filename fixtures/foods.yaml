@@ -1,0 +1,196 @@
+# Legums
+App\Entity\Food:
+    ail:
+        name: Ail
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    artichaut:
+        name: Artichaut
+        category: '@legums'
+        months: ['@avr', '@mai', '@jun', '@jul', '@aou', '@sep']
+    asperge:
+        name: Asperge
+        category: '@legums'
+        months: ['@mar', '@avr', '@mai', '@jun', '@jul']
+    aubergine:
+        name: Aubergine
+        category: '@legums'
+        months: ['@mai', '@jun', '@jul', '@aou', '@sep', '@oct']
+    avocat:
+        name: Avocat
+        category: '@legums'
+        months: []
+    bettrave:
+        name: Bettrave
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    blette:
+        name: Blette
+        category: '@legums'
+        months: ['@mar', '@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct']
+    brocoli:
+        name: Brocoli
+        category: '@legums'
+        months: ['@jun', '@jul', '@aou', '@sep', '@oct']
+    cardon:
+        name: Cardon
+        category: '@legums'
+        months: ['@nov']
+    carotte:
+        name: Carotte
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    celeribranche:
+        name: Céleri-branche
+        category: '@legums'
+        months: ['@jan', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    celerirave:
+        name: Céleri-rave
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@oct', '@nov', '@dec']
+    champignon:
+        name: Champignon
+        category: '@legums'
+        months: []
+    chou:
+        name: Chou
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@sep', '@oct', '@nov', '@dec']
+    choublanc:
+        name: Chou blanc
+        category: '@legums'
+        months: ['@jan', '@fev', '@aou', '@sep', '@oct', '@nov', '@dec']
+    choudebruxelles:
+        name: Chou de Bruxelles
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@sep', '@oct', '@nov', '@dec']
+    choufleur:
+        name: Chou-fleur
+        category: '@legums'
+        months: ['@mar', '@avr', '@mai', '@sep', '@oct', '@nov']
+    choufrise:
+        name: Chou frisé
+        category: '@legums'
+        months: ['@jan', '@fev', '@sep', '@oct', '@nov', '@dec']
+    chouromanesco:
+        name: Chou romanesco
+        category: '@legums'
+        months: ['@jun', '@jul', '@aou', '@sep']
+    chourouge:
+        name: Chou rouge
+        category: '@legums'
+        months: ['@jan', '@fev', '@aou', '@sep', '@oct', '@nov', '@dec']
+    citrouille:
+        name: Citrouille
+        category: '@legums'
+        months: ['@nov']
+    concombre:
+        name: Concombre
+        category: '@legums'
+        months: ['@mai', '@jun', '@jul', '@aou', '@sep', '@oct']
+    courge:
+        name: Courge
+        category: '@legums'
+        months: ['@jan', '@aou', '@sep', '@oct', '@nov', '@dec']
+    courgette:
+        name: Courgette
+        category: '@legums'
+        months: ['@mai', '@jun', '@jul', '@aou', '@sep', '@oct']
+    crosne:
+        name: Crosne
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@nov', '@dec']
+    echalotte:
+        name: Échalotte
+        category: '@legums'
+        months: ['@oct', '@nov', '@dec']
+    endive:
+        name: Endive
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@oct', '@nov', '@dec']
+    epinard:
+        name: Épinard
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    fenouil:
+        name: Fenouil
+        category: '@legums'
+        months: ['@jun', '@jul', '@aou', '@sep', '@oct', '@nov']
+    frisee:
+        name: Frisée
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@aou', '@sep', '@oct', '@nov', '@dec']
+    haricotvert:
+        name: Haricot vert
+        category: '@legums'
+        months: ['@jun', '@jul', '@aou', '@sep', '@oct']
+    laitue:
+        name: Laitue
+        category: '@legums'
+        months: ['@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct']
+    mache:
+        name: Mâche
+        category: '@legums'
+        months: ['@jan', '@fev', '@nov', '@dec']
+    navet:
+        name: Navet
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun', '@oct', '@nov', '@dec']
+    oignon:
+        name: Oignon
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    panais:
+        name: Panais
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@sep', '@oct', '@nov', '@dec']
+    patatedouce:
+        name: Patate douce
+        category: '@legums'
+        months: ['@sep', '@oct']
+    petitpois:
+        name: Petit pois
+        category: '@legums'
+        months: ['@avr', '@mai', '@jun', '@jul']
+    poireau:
+        name: Poireau
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@sep', '@oct', '@nov', '@dec']
+    poivron:
+        name: Poivron
+        category: '@legums'
+        months: ['@jun', '@jul', '@aou', '@sep']
+    pommedeterre:
+        name: Pomme de terre
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    potiron:
+        name: Potiron
+        category: '@legums'
+        months: ['@sep', '@oct', '@nov', '@dec']
+    radis:
+        name: Radis
+        category: '@legums'
+        months: ['@fev', '@mar', '@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    rutabaga:
+        name: Rutabaga
+        category: '@legums'
+        months: ['@oct', '@nov', '@dec']
+    salsifi:
+        name: Salsifi
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@oct', '@nov', '@dec']
+    tomate:
+        name: Tomate
+        category: '@legums'
+        months: ['@mai', '@jun', '@jul', '@aou', '@sep', '@oct']
+    topinambour:
+        name: Topinambour
+        category: '@legums'
+        months: ['@jan', '@fev', '@mar', '@oct', '@nov', '@dec']
+
+# Fruits
+    abricot:
+        name: Abricot
+        category: '@fruits'
+        months: ['@jun', '@jul', '@aou']

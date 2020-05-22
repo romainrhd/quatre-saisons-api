@@ -1,0 +1,25 @@
+App\Entity\Month:
+    jan:
+        name: Janvier
+    fev:
+        name: Février
+    mar:
+        name: Mars
+    avr:
+        name: Avril
+    mai:
+        name: Mai
+    jun:
+        name: Juin
+    jul:
+        name: Juillet
+    aou:
+        name: Août
+    sep:
+        name: Septembre
+    oct:
+        name: Octobre
+    nov:
+        name: Novembre
+    dec:
+        name: Décembre

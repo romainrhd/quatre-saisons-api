@@ -1,5 +1,5 @@
 App\Entity\Category:
-    category1:
+    legums:
         name: Légumes
-    category2:
+    fruits:
         name: Fruits
