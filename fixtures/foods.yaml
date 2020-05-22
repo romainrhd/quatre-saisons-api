@@ -194,3 +194,139 @@ App\Entity\Food:
         name: Abricot
         category: '@fruits'
         months: ['@jun', '@jul', '@aou']
+    amande:
+        name: Amande
+        category: '@fruits'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun', '@jul', '@aou', '@sep', '@oct', '@nov']
+    baiedegoji:
+        name: baie de goji
+        category: '@fruits'
+        months: ['@aou', '@sep', '@oct']
+    brugnon:
+        name: Brugnon
+        category: '@fruits'
+        months: ['@jun', '@jul', '@aou']
+    cassis:
+        name: Cassis
+        category: '@fruits'
+        months: ['@jun', '@jul', '@aou']
+    cerise:
+        name: Cesrise
+        category: '@fruits'
+        months: ['@mai', '@jun', '@jul']
+    chataigne:
+        name: Châtaigne
+        category: '@fruits'
+        months: ['@oct', '@nov']
+    citron:
+        name: Citron
+        category: '@fruits'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun', '@oct', '@nov', '@dec']
+    clementine:
+        name: Clémentine
+        category: '@fruits'
+        months: ['@jan', '@fev', '@nov', '@dec']
+    coing:
+        name: Coing
+        category: '@fruits'
+        months: ['@sep', '@oct', '@nov']
+    figue:
+        name: Figue
+        category: '@fruits'
+        months: ['@jul', '@aou', '@sep', '@oct']
+    fraise:
+        name: Fraise
+        category: '@fruits'
+        months: ['@mai', '@jun', '@jul', '@aou']
+    framboise:
+        name: Framboise
+        category: '@fruits'
+        months: ['@jun', '@jul', '@aou', '@sep', '@oct']
+    groseille:
+        name: Groseille
+        category: '@fruits'
+        months: ['@jun', '@jul', '@aou']
+    kaki:
+        name: Kaki
+        category: '@fruits'
+        months: ['@jan', '@oct', '@nov', '@dec']
+    kiwi:
+        name: Kiwi
+        category: '@fruits'
+        months: ['@jan', '@fev', '@mar', '@nov', '@dec']
+    mandarine:
+        name: Mandarine
+        category: '@fruits'
+        months: ['@jan', '@fev', '@nov', '@dec']
+    melon:
+        name: Melon
+        category: '@fruits'
+        months: ['@jun', '@jul', '@aou', '@sep']
+    mirabelle:
+        name: Mirabelle
+        category: '@fruits'
+        months: ['@aou', '@sep']
+    mure:
+        name: Mûre
+        category: '@fruits'
+        months: ['@aou', '@sep']
+    myrtille:
+        name: Myrtille
+        category: '@fruits'
+        months: ['@jul', '@aou', '@sep', '@oct']
+    nectarine:
+        name: Nectarine
+        category: '@fruits'
+        months: ['@jul', '@aou']
+    noisette:
+        name: Noisette
+        category: '@fruits'
+        months: ['@aou', '@sep', '@oct']
+    noix:
+        name: Noix
+        category: '@fruits'
+        months: ['@sep', '@oct']
+    orange:
+        name: Orange
+        category: '@fruits'
+        months: ['@jan', '@fev', '@mar', '@nov', '@dec']
+    pamplemousse:
+        name: Pamplemousse
+        category: '@fruits'
+        months: ['@jan', '@fev', '@mar', '@avr', '@mai', '@jun']
+    pasteque:
+        name: Pastèque
+        category: '@fruits'
+        months: ['@jun', '@jul', '@aou', '@sep']
+    peche:
+        name: Pêche
+        category: '@fruits'
+        months: ['@jun', '@jul', '@aou', '@sep']
+    physalis:
+        name: Physalis
+        category: '@fruits'
+        months: ['@jan', '@fev', '@oct', '@nov', '@dec']
+    poire:
+        name: Poire
+        category: '@fruits'
+        months: ['@jan', '@fev', '@mar', '@avr', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    pomme:
+        name: Pomme
+        category: '@fruits'
+        months: ['@jan', '@fev', '@mar', '@avr', '@jul', '@aou', '@sep', '@oct', '@nov', '@dec']
+    prune:
+        name: Prune
+        category: '@fruits'
+        months: ['@jun', '@jul', '@aou', '@sep']
+    pruneau:
+        name: Pruneau
+        category: '@fruits'
+        months: ['@aou', '@sep']
+    raisin:
+        name: Raisin
+        category: '@fruits'
+        months: ['@aou', '@sep', '@oct']
+    rhubarbe:
+        name: Rhubarbe
+        category: '@fruits'
+        months: ['@mai', '@jun', '@jul', '@aou']
