@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -29,6 +31,16 @@ class Food
      */
     private $category;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Month", mappedBy="foods")
+     */
+    private $months;
+
+    public function __construct()
+    {
+        $this->months = new ArrayCollection();
+    }
+
     public function getId(): ?int
     {
         return $this->id;
@@ -54,6 +66,34 @@ class Food
     public function setCategory(?Category $category): self
     {
         $this->category = $category;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Month[]
+     */
+    public function getMonths(): Collection
+    {
+        return $this->months;
+    }
+
+    public function addMonth(Month $month): self
+    {
+        if (!$this->months->contains($month)) {
+            $this->months[] = $month;
+            $month->addFood($this);
+        }
+
+        return $this;
+    }
+
+    public function removeMonth(Month $month): self
+    {
+        if ($this->months->contains($month)) {
+            $this->months->removeElement($month);
+            $month->removeFood($this);
+        }
 
         return $this;
     }
